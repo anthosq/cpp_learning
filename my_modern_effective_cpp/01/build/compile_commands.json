@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/Aerith/Documents/code/my_modern_effective_cpp/01/build",
+  "command": "/usr/bin/c++   -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -Werror=return-type -o CMakeFiles/main.dir/main.cpp.o -c /home/Aerith/Documents/code/my_modern_effective_cpp/01/main.cpp",
+  "file": "/home/Aerith/Documents/code/my_modern_effective_cpp/01/main.cpp",
+  "output": "CMakeFiles/main.dir/main.cpp.o"
+}
+]
