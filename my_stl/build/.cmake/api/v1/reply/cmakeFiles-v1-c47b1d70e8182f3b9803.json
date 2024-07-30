@@ -420,8 +420,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/Aerith/Documents/code/m_projects/cpp_learning/iostream/build",
-		"source" : "/home/Aerith/Documents/code/m_projects/cpp_learning/iostream"
+		"build" : "/home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/build",
+		"source" : "/home/Aerith/Documents/code/m_projects/cpp_learning/my_stl"
 	},
 	"version" : 
 	{

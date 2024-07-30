@@ -7,5 +7,5 @@ set(CMAKE_CXX_COMPILER /usr/bin/g++)
 set(CMAKE_CXX_STANDARD 20)
 
 project(main LANGUAGES CXX)
-add_executable(main Optional.cpp)
+add_executable(main Vector.cpp)
 

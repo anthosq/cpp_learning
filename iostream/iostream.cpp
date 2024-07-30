@@ -38,12 +38,20 @@ struct OStream {
     }
 
     void putstr(const std::string &s) {
+        if (mode == _IONBF) {
+            std::this_thread::sleep_for(1s);
+            ::write(fd, s.data(), s.length());
+            return;
+        }
         for (char c : s) {
             if (bufidx == BUFSIZ)
                 flush();
             buf[bufidx++] = c;
             if (mode == _IOLBF && c == '\n')
                 flush();
+        }
+        if (mode == _IONBF) {
+            flush();
         }
     }
 

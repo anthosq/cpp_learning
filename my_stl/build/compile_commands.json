@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/build",
+  "command": "/usr/bin/g++   -g -std=gnu++20 -o CMakeFiles/main.dir/Vector.cpp.o -c /home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/Vector.cpp",
+  "file": "/home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/Vector.cpp",
+  "output": "CMakeFiles/main.dir/Vector.cpp.o"
+}
+]
