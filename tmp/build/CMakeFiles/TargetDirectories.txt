@@ -1,3 +1,0 @@
-/home/Aerith/Documents/code/m_projects/tmp/build/CMakeFiles/main.dir
-/home/Aerith/Documents/code/m_projects/tmp/build/CMakeFiles/edit_cache.dir
-/home/Aerith/Documents/code/m_projects/tmp/build/CMakeFiles/rebuild_cache.dir
