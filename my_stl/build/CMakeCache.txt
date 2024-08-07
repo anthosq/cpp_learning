@@ -118,7 +118,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=main
+CMAKE_PROJECT_NAME:STATIC=stl1weekend
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -193,6 +193,15 @@ main_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 main_SOURCE_DIR:STATIC=/home/Aerith/Documents/code/m_projects/cpp_learning/my_stl
+
+//Value Computed by CMake
+stl1weekend_BINARY_DIR:STATIC=/home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/build
+
+//Value Computed by CMake
+stl1weekend_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+stl1weekend_SOURCE_DIR:STATIC=/home/Aerith/Documents/code/m_projects/cpp_learning/my_stl
 
 
 ########################

@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/Array.dir/Array.cpp.o -o Array

@@ -1,11 +1,7 @@
 #include <iostream>
 #include <optional>
+#include "Optional.hpp"
 
-template <class T>
-struct Optional {
-    bool has_value;
-    T value;
-};
 
 void test_std() {
     std::optional<int> opt(1);
@@ -28,7 +24,20 @@ void test_std() {
     std::cout << opt2.value_or(0) << '\n'; // 42
 }
 
+void test_ours() {
+    Optional<int> opt1(1);
+
+    std::cout << opt1.has_value() << '\n';
+    std::cout << opt1.value() << '\n';
+
+    Optional<int> opt2(Nullopt);
+    std::cout << opt2.has_value() << '\n';
+    std::cout << opt2.value() << '\n';
+}
+
+
 int main() {
-    test_std();
+    test_ours();
+    // test_std();
     return 0;
 }

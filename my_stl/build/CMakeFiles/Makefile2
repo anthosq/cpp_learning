@@ -63,7 +63,12 @@ CMAKE_BINARY_DIR = /home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/bu
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/main.dir/all
+all: CMakeFiles/Array.dir/all
+all: CMakeFiles/List.dir/all
+all: CMakeFiles/Optional.dir/all
+all: CMakeFiles/Vector.dir/all
+all: CMakeFiles/move.dir/all
+all: CMakeFiles/unique_ptr.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +76,169 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/main.dir/clean
+clean: CMakeFiles/Array.dir/clean
+clean: CMakeFiles/List.dir/clean
+clean: CMakeFiles/Optional.dir/clean
+clean: CMakeFiles/Vector.dir/clean
+clean: CMakeFiles/move.dir/clean
+clean: CMakeFiles/unique_ptr.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/main.dir
+# Target rules for target CMakeFiles/Array.dir
 
 # All Build rule for target.
-CMakeFiles/main.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/build/CMakeFiles --progress-num=1,2 "Built target main"
-.PHONY : CMakeFiles/main.dir/all
+CMakeFiles/Array.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Array.dir/build.make CMakeFiles/Array.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Array.dir/build.make CMakeFiles/Array.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/build/CMakeFiles --progress-num=1,2 "Built target Array"
+.PHONY : CMakeFiles/Array.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/main.dir/rule: cmake_check_build_system
+CMakeFiles/Array.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/main.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Array.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/build/CMakeFiles 0
-.PHONY : CMakeFiles/main.dir/rule
+.PHONY : CMakeFiles/Array.dir/rule
 
 # Convenience name for target.
-main: CMakeFiles/main.dir/rule
-.PHONY : main
+Array: CMakeFiles/Array.dir/rule
+.PHONY : Array
 
 # clean rule for target.
-CMakeFiles/main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/clean
-.PHONY : CMakeFiles/main.dir/clean
+CMakeFiles/Array.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Array.dir/build.make CMakeFiles/Array.dir/clean
+.PHONY : CMakeFiles/Array.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/List.dir
+
+# All Build rule for target.
+CMakeFiles/List.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/build/CMakeFiles --progress-num=3,4 "Built target List"
+.PHONY : CMakeFiles/List.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/List.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/List.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/build/CMakeFiles 0
+.PHONY : CMakeFiles/List.dir/rule
+
+# Convenience name for target.
+List: CMakeFiles/List.dir/rule
+.PHONY : List
+
+# clean rule for target.
+CMakeFiles/List.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/clean
+.PHONY : CMakeFiles/List.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Optional.dir
+
+# All Build rule for target.
+CMakeFiles/Optional.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Optional.dir/build.make CMakeFiles/Optional.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Optional.dir/build.make CMakeFiles/Optional.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/build/CMakeFiles --progress-num=5,6 "Built target Optional"
+.PHONY : CMakeFiles/Optional.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Optional.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Optional.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/build/CMakeFiles 0
+.PHONY : CMakeFiles/Optional.dir/rule
+
+# Convenience name for target.
+Optional: CMakeFiles/Optional.dir/rule
+.PHONY : Optional
+
+# clean rule for target.
+CMakeFiles/Optional.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Optional.dir/build.make CMakeFiles/Optional.dir/clean
+.PHONY : CMakeFiles/Optional.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Vector.dir
+
+# All Build rule for target.
+CMakeFiles/Vector.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vector.dir/build.make CMakeFiles/Vector.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vector.dir/build.make CMakeFiles/Vector.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/build/CMakeFiles --progress-num=7,8 "Built target Vector"
+.PHONY : CMakeFiles/Vector.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Vector.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Vector.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/build/CMakeFiles 0
+.PHONY : CMakeFiles/Vector.dir/rule
+
+# Convenience name for target.
+Vector: CMakeFiles/Vector.dir/rule
+.PHONY : Vector
+
+# clean rule for target.
+CMakeFiles/Vector.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vector.dir/build.make CMakeFiles/Vector.dir/clean
+.PHONY : CMakeFiles/Vector.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/move.dir
+
+# All Build rule for target.
+CMakeFiles/move.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move.dir/build.make CMakeFiles/move.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move.dir/build.make CMakeFiles/move.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/build/CMakeFiles --progress-num=9,10 "Built target move"
+.PHONY : CMakeFiles/move.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/move.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/move.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/build/CMakeFiles 0
+.PHONY : CMakeFiles/move.dir/rule
+
+# Convenience name for target.
+move: CMakeFiles/move.dir/rule
+.PHONY : move
+
+# clean rule for target.
+CMakeFiles/move.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move.dir/build.make CMakeFiles/move.dir/clean
+.PHONY : CMakeFiles/move.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/unique_ptr.dir
+
+# All Build rule for target.
+CMakeFiles/unique_ptr.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unique_ptr.dir/build.make CMakeFiles/unique_ptr.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unique_ptr.dir/build.make CMakeFiles/unique_ptr.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/build/CMakeFiles --progress-num=11,12 "Built target unique_ptr"
+.PHONY : CMakeFiles/unique_ptr.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/unique_ptr.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/unique_ptr.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/build/CMakeFiles 0
+.PHONY : CMakeFiles/unique_ptr.dir/rule
+
+# Convenience name for target.
+unique_ptr: CMakeFiles/unique_ptr.dir/rule
+.PHONY : unique_ptr
+
+# clean rule for target.
+CMakeFiles/unique_ptr.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unique_ptr.dir/build.make CMakeFiles/unique_ptr.dir/clean
+.PHONY : CMakeFiles/unique_ptr.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
@@ -107,6 +247,7 @@ CMakeFiles/main.dir/clean:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+	$(CMAKE_COMMAND) -P /home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,8 +1,38 @@
 [
 {
   "directory": "/home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/build",
-  "command": "/usr/bin/g++   -g -std=gnu++20 -o CMakeFiles/main.dir/Vector.cpp.o -c /home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/Vector.cpp",
+  "command": "/usr/bin/g++   -g -std=gnu++20 -Wall -Wextra -Werror=return-type -o CMakeFiles/Array.dir/Array.cpp.o -c /home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/Array.cpp",
+  "file": "/home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/Array.cpp",
+  "output": "CMakeFiles/Array.dir/Array.cpp.o"
+},
+{
+  "directory": "/home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/build",
+  "command": "/usr/bin/g++   -g -std=gnu++20 -Wall -Wextra -Werror=return-type -o CMakeFiles/List.dir/List.cpp.o -c /home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/List.cpp",
+  "file": "/home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/List.cpp",
+  "output": "CMakeFiles/List.dir/List.cpp.o"
+},
+{
+  "directory": "/home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/build",
+  "command": "/usr/bin/g++   -g -std=gnu++20 -Wall -Wextra -Werror=return-type -o CMakeFiles/Optional.dir/Optional.cpp.o -c /home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/Optional.cpp",
+  "file": "/home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/Optional.cpp",
+  "output": "CMakeFiles/Optional.dir/Optional.cpp.o"
+},
+{
+  "directory": "/home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/build",
+  "command": "/usr/bin/g++   -g -std=gnu++20 -Wall -Wextra -Werror=return-type -o CMakeFiles/Vector.dir/Vector.cpp.o -c /home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/Vector.cpp",
   "file": "/home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/Vector.cpp",
-  "output": "CMakeFiles/main.dir/Vector.cpp.o"
+  "output": "CMakeFiles/Vector.dir/Vector.cpp.o"
+},
+{
+  "directory": "/home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/build",
+  "command": "/usr/bin/g++   -g -std=gnu++20 -Wall -Wextra -Werror=return-type -o CMakeFiles/move.dir/move.cpp.o -c /home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/move.cpp",
+  "file": "/home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/move.cpp",
+  "output": "CMakeFiles/move.dir/move.cpp.o"
+},
+{
+  "directory": "/home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/build",
+  "command": "/usr/bin/g++   -g -std=gnu++20 -Wall -Wextra -Werror=return-type -o CMakeFiles/unique_ptr.dir/unique_ptr.cpp.o -c /home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/unique_ptr.cpp",
+  "file": "/home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/unique_ptr.cpp",
+  "output": "CMakeFiles/unique_ptr.dir/unique_ptr.cpp.o"
 }
 ]

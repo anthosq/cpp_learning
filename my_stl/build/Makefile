@@ -113,28 +113,166 @@ preinstall/fast:
 
 # clear depends
 depend:
+	$(CMAKE_COMMAND) -P /home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named Array
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
-.PHONY : main
+Array: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Array
+.PHONY : Array
 
 # fast build rule for target.
-main/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
+Array/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Array.dir/build.make CMakeFiles/Array.dir/build
+.PHONY : Array/fast
+
+#=============================================================================
+# Target rules for targets named List
+
+# Build rule for target.
+List: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 List
+.PHONY : List
+
+# fast build rule for target.
+List/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/build
+.PHONY : List/fast
+
+#=============================================================================
+# Target rules for targets named Optional
+
+# Build rule for target.
+Optional: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Optional
+.PHONY : Optional
+
+# fast build rule for target.
+Optional/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Optional.dir/build.make CMakeFiles/Optional.dir/build
+.PHONY : Optional/fast
+
+#=============================================================================
+# Target rules for targets named Vector
+
+# Build rule for target.
+Vector: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Vector
+.PHONY : Vector
+
+# fast build rule for target.
+Vector/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vector.dir/build.make CMakeFiles/Vector.dir/build
+.PHONY : Vector/fast
+
+#=============================================================================
+# Target rules for targets named move
+
+# Build rule for target.
+move: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 move
+.PHONY : move
+
+# fast build rule for target.
+move/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move.dir/build.make CMakeFiles/move.dir/build
+.PHONY : move/fast
+
+#=============================================================================
+# Target rules for targets named unique_ptr
+
+# Build rule for target.
+unique_ptr: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unique_ptr
+.PHONY : unique_ptr
+
+# fast build rule for target.
+unique_ptr/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unique_ptr.dir/build.make CMakeFiles/unique_ptr.dir/build
+.PHONY : unique_ptr/fast
+
+Array.o: Array.cpp.o
+.PHONY : Array.o
+
+# target to build an object file
+Array.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Array.dir/build.make CMakeFiles/Array.dir/Array.cpp.o
+.PHONY : Array.cpp.o
+
+Array.i: Array.cpp.i
+.PHONY : Array.i
+
+# target to preprocess a source file
+Array.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Array.dir/build.make CMakeFiles/Array.dir/Array.cpp.i
+.PHONY : Array.cpp.i
+
+Array.s: Array.cpp.s
+.PHONY : Array.s
+
+# target to generate assembly for a file
+Array.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Array.dir/build.make CMakeFiles/Array.dir/Array.cpp.s
+.PHONY : Array.cpp.s
+
+List.o: List.cpp.o
+.PHONY : List.o
+
+# target to build an object file
+List.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/List.cpp.o
+.PHONY : List.cpp.o
+
+List.i: List.cpp.i
+.PHONY : List.i
+
+# target to preprocess a source file
+List.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/List.cpp.i
+.PHONY : List.cpp.i
+
+List.s: List.cpp.s
+.PHONY : List.s
+
+# target to generate assembly for a file
+List.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/List.cpp.s
+.PHONY : List.cpp.s
+
+Optional.o: Optional.cpp.o
+.PHONY : Optional.o
+
+# target to build an object file
+Optional.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Optional.dir/build.make CMakeFiles/Optional.dir/Optional.cpp.o
+.PHONY : Optional.cpp.o
+
+Optional.i: Optional.cpp.i
+.PHONY : Optional.i
+
+# target to preprocess a source file
+Optional.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Optional.dir/build.make CMakeFiles/Optional.dir/Optional.cpp.i
+.PHONY : Optional.cpp.i
+
+Optional.s: Optional.cpp.s
+.PHONY : Optional.s
+
+# target to generate assembly for a file
+Optional.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Optional.dir/build.make CMakeFiles/Optional.dir/Optional.cpp.s
+.PHONY : Optional.cpp.s
 
 Vector.o: Vector.cpp.o
 .PHONY : Vector.o
 
 # target to build an object file
 Vector.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Vector.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vector.dir/build.make CMakeFiles/Vector.dir/Vector.cpp.o
 .PHONY : Vector.cpp.o
 
 Vector.i: Vector.cpp.i
@@ -142,7 +280,7 @@ Vector.i: Vector.cpp.i
 
 # target to preprocess a source file
 Vector.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Vector.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vector.dir/build.make CMakeFiles/Vector.dir/Vector.cpp.i
 .PHONY : Vector.cpp.i
 
 Vector.s: Vector.cpp.s
@@ -150,8 +288,56 @@ Vector.s: Vector.cpp.s
 
 # target to generate assembly for a file
 Vector.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Vector.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vector.dir/build.make CMakeFiles/Vector.dir/Vector.cpp.s
 .PHONY : Vector.cpp.s
+
+move.o: move.cpp.o
+.PHONY : move.o
+
+# target to build an object file
+move.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move.dir/build.make CMakeFiles/move.dir/move.cpp.o
+.PHONY : move.cpp.o
+
+move.i: move.cpp.i
+.PHONY : move.i
+
+# target to preprocess a source file
+move.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move.dir/build.make CMakeFiles/move.dir/move.cpp.i
+.PHONY : move.cpp.i
+
+move.s: move.cpp.s
+.PHONY : move.s
+
+# target to generate assembly for a file
+move.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move.dir/build.make CMakeFiles/move.dir/move.cpp.s
+.PHONY : move.cpp.s
+
+unique_ptr.o: unique_ptr.cpp.o
+.PHONY : unique_ptr.o
+
+# target to build an object file
+unique_ptr.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unique_ptr.dir/build.make CMakeFiles/unique_ptr.dir/unique_ptr.cpp.o
+.PHONY : unique_ptr.cpp.o
+
+unique_ptr.i: unique_ptr.cpp.i
+.PHONY : unique_ptr.i
+
+# target to preprocess a source file
+unique_ptr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unique_ptr.dir/build.make CMakeFiles/unique_ptr.dir/unique_ptr.cpp.i
+.PHONY : unique_ptr.cpp.i
+
+unique_ptr.s: unique_ptr.cpp.s
+.PHONY : unique_ptr.s
+
+# target to generate assembly for a file
+unique_ptr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unique_ptr.dir/build.make CMakeFiles/unique_ptr.dir/unique_ptr.cpp.s
+.PHONY : unique_ptr.cpp.s
 
 # Help Target
 help:
@@ -161,10 +347,30 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... main"
+	@echo "... Array"
+	@echo "... List"
+	@echo "... Optional"
+	@echo "... Vector"
+	@echo "... move"
+	@echo "... unique_ptr"
+	@echo "... Array.o"
+	@echo "... Array.i"
+	@echo "... Array.s"
+	@echo "... List.o"
+	@echo "... List.i"
+	@echo "... List.s"
+	@echo "... Optional.o"
+	@echo "... Optional.i"
+	@echo "... Optional.s"
 	@echo "... Vector.o"
 	@echo "... Vector.i"
 	@echo "... Vector.s"
+	@echo "... move.o"
+	@echo "... move.i"
+	@echo "... move.s"
+	@echo "... unique_ptr.o"
+	@echo "... unique_ptr.i"
+	@echo "... unique_ptr.s"
 .PHONY : help
 
 
@@ -176,6 +382,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+	$(CMAKE_COMMAND) -P /home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

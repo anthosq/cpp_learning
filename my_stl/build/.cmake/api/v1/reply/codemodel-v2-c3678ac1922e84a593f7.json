@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "stl1weekend",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Array::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Array-Debug-44744afc7e40c73add2c.json",
+					"name" : "Array",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "List::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-List-Debug-28d695e386dcd66a2434.json",
+					"name" : "List",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Optional::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Optional-Debug-a7d20bcb8f2f0454a45e.json",
+					"name" : "Optional",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Vector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Vector-Debug-5d6e984adf1232048c29.json",
+					"name" : "Vector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move-Debug-5add835c7a21b824a95a.json",
+					"name" : "move",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unique_ptr::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unique_ptr-Debug-93edaaaaf9fb11e47e51.json",
+					"name" : "unique_ptr",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/Aerith/Documents/code/m_projects/cpp_learning/my_stl/build",
+		"source" : "/home/Aerith/Documents/code/m_projects/cpp_learning/my_stl"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
